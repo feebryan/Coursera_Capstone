@@ -1,0 +1,5 @@
+# Introduction/Business Problem Section
+A client from one of the neighborhoods in San Fransisco is planning to move to Philadelphia and wondering if a similar neighborhoods would be available there. There are a couple of categories which are expected by the client to be available in the new neighborhoods such as school for their kids, an access to city park, etc.
+
+# Data Section
+Foursquare API will be used to get the information on the client's current neighborhoods and take notes on some of the required category desired by the client such as school district. A clustering will be done to the current neighhborhoods using k-mean clustering to develop the neighborhoods model. Once the cluster is identified in the current neighborhoods, similar model will be used to cluster the target neighborhoods in Philadelphia. The result will be a matched neighborhoods that can be choosen by the client.
